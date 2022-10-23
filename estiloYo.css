@@ -1,0 +1,180 @@
+.maintxt {
+  background-image: url(ba1.jpg);
+  background-size: cover;
+}
+
+.imagen1 {
+  /* position:absolute; */
+  /* z-index: -1; */
+  opacity: 0.7;
+  /* max-width: 100%; */
+  align-content: flex-end;
+}
+
+.posicion1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont1 {
+  max-width: 100%;
+  display: flex;
+}
+
+.cont2 {
+  max-width: 80%;
+}
+
+.cont3 {
+  max-width: 50%;
+}
+
+.cont4 {
+  max-width: 40%;
+}
+
+.codoImg {
+  max-width: 10vw;
+  max-height: 15vw;
+}
+
+.fondo1 {
+  background-color: aquamarine;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  /* align-items: flex-end;
+  align-content: space-around; */
+}
+
+.fondo1 {
+  background-color: darkslategray;
+}
+
+.fuente1 {
+  font-size: 1.6vw;
+}
+
+.fuente2 {
+  font-size: 4vw;
+}
+
+.fuente3 {
+  font-size: 3vw;
+}
+
+.fuente4 {
+  font-size: 2vw;
+}
+
+.fuente5 {
+  font-size: 1.9vw;
+}
+
+.fuenteVerde {
+  color: rgb(87, 197, 23);
+}
+
+.fuenteBlanca {
+  color: white;
+}
+
+.fuenteGris {
+  color: rgb(180, 166, 166);
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+
+.size1 {
+  max-width: 40vw;
+}
+
+.left1 {
+  margin-left: 40vw;
+}
+
+.left2 {
+  margin-left: 20vw;
+}
+
+.left3 {
+  margin-left: 30vw;
+}
+.left4 {
+  margin-left: 2vw;
+}
+.left5 {
+  margin-left: 25vw;
+}
+.left6 {
+  margin-left: 51vw;
+}
+.right1 {
+  margin-right: 10vw;
+}
+
+.noWrap {
+  flex-wrap: noWrap;
+}
+
+/* justify-content:end; */
+/* align-items: flex-end; */
+/* }
+
+.row {
+  flex-direction: row;
+} */
+
+.bbox {
+  box-sizing: border-box;
+}
+
+/* .cont2 {
+    max-width: 110%;
+    display: flex;
+  } */
+
+/* .cont5 {
+  max-width: 50vw;
+} */
+
+.borderNulo {
+  border-left: 10;
+}
+
+.fuenteP {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ancho {
+  width: 15vw;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+.backgroundGreen {
+  background-color: rgb(71, 187, 71);
+}
+
+.borderGray {
+  border-color: rgb(223, 218, 218);
+}
+
+.marginTop {
+  margin-top: 4%;
+}
+.abajo {
+  align-self: flex-end;
+}
+
+.flexPrueba {
+  flex: 1 1 auto;
+}

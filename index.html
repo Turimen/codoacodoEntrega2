@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="estiloYo.css" />
+  </head>
+  <body class="posicion1">
+    <div class="fondo1 cont1 row1">
+      <h6 class="fuenteBlanca fuente5 mt-3 left4 fuenteP ancho">Conf Bs As</h6>
+      <div class="fondo1 cont1 row1 left3">
+        <button
+          type="button"
+          class="btn btn-dark m-1 p-1 fuente1 fondo1 fuenteGris"
+        >
+          La conferencia
+        </button>
+        <button
+          type="button"
+          class="btn btn-dark m-1 p-1 fuente1 fondo1 fuenteGris"
+        >
+          Los oradores
+        </button>
+        <button
+          type="button"
+          class="btn btn-dark m-1 p-1 fuente1 fondo1 fuenteGris"
+        >
+          El lugar y la fecha
+        </button>
+        <button type="button" class="btn btn-dark m-1 p-1 fuente1 fondo1">
+          Conviértete en orador
+        </button>
+        <button
+          type="button"
+          class="btn btn-dark m-1 p-1 bbox fuente1 fuenteVerde fondo1"
+        >
+          Comprar tickets
+        </button>
+      </div>
+    </div>
+
+    <div class="row1 left4">
+      <div class="card m-1">
+        <div class="card-body">
+          <h2 class="fuente2">Estudiante</h2>
+          <h6 class="fuente1">Tiene un descuento</h6>
+          <h2 class="fuente2">80%</h2>
+          <h6 class="fuente1">*presentar documentación</h6>
+        </div>
+      </div>
+      <div class="card m-1">
+        <div class="card-body">
+          <h2 class="fuente2">Trainee</h2>
+          <h6 class="fuente1">Tiene un descuento</h6>
+          <h2 class="fuente2">50%</h2>
+          <h6 class="fuente1">*presentar documentación</h6>
+        </div>
+      </div>
+      <div class="card m-1">
+        <div class="card-body">
+          <h2 class="fuente2">Junior</h2>
+          <h6 class="fuente1">Tiene un descuento</h6>
+          <h2 class="fuente2">15%</h2>
+          <h6 class="fuente1">*presentar documentación</h6>
+        </div>
+      </div>
+    </div>
+    <h6 class="fuente1 left1">Venta</h6>
+    <h2 class="fuente2 left5">Tiene un descuento</h2>
+    <div>
+      <div class="form-row">
+        <div class="form-group col-md-6 m-2">
+          <label class="fuente4" for="inputEmail4">Nombre</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            placeholder=""
+          />
+        </div>
+        <div class="form-group col-md-6 m-2">
+          <label class="fuente4" for="inputPassword4">Apellido</label>
+          <input
+            type="password"
+            class="form-control"
+            id="inputPassword4"
+            placeholder=""
+          />
+        </div>
+      </div>
+      <div class="form-group m-2">
+        <label class="fuente4" for="inputAddress">Correo</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress"
+          placeholder=""
+        />
+      </div>
+
+      <!-- <h6 class="left6 fuente4">Categoría</h6>
+     -->
+      <div class="row1">
+        <div class="col-6 m-1 flexPrueba">
+          <label class="fuente4" for="inputAddress">Cantidad</label>
+          <input type="number" class="Cantidad" id="inputB" placeholder="" />
+        </div>
+
+        <div class="col-6 m-1 flexPrueba">
+          <label class="fuente4" for="inputAddress">Categoria</label>
+          <input type="string" id="categoria" />
+        </div>
+      </div>
+
+      <div class="row1 m-3">
+        <div class="col-6 m-1 flexPrueba">
+          <label class="fuente4" for="inputAddress">TOTAL A PAGAR</label>
+          <input type="number" class="Cantidad" id="total" placeholder="" />
+        </div>
+      </div>
+
+      <div class="row1">
+        <button
+          type="submit"
+          class="btn btn-primary m-1 fuente3 mb-3 col-6 flexPrueba backgroundGreen"
+        >
+          Borrar
+        </button>
+        <button
+          type="submit"
+          class="btn btn-primary m-1 fuente3 mb-3 col-6 flexPrueba backgroundGreen"
+          id="inputA"
+        >
+          Resumen
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+<div class="dropdown posicion1 col-6 abajo altura m-1">
+  <label class="fuente4" for="inputAddress" id="categoria">Categoría</label>
+  <button
+    class="btn btn-secondary dropdown-toggle backgroundWhite borderGray"
+    type="button"
+    id="dropdownMenuButton"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+    Estudiante
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Estudiante</a>
+    <a class="dropdown-item" href="#">Trainee</a>
+    <a class="dropdown-item" href="#">Junior</a>
+  </div>
+</div>
